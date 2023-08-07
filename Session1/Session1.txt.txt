@@ -1,0 +1,55 @@
+mkdir siham\ said => Create a new directory with name siham said
+
+ls => list directory => siham said
+
+cd siham\ said/ => Change your current working directory to the newly created directory
+
+mkdir Documents => Create a new directory with name Documents
+
+cd Documents/ => Change your current working directory to the newly created directory
+
+touch file1.txt file2.txt file3.txt => Create 3 files at the same time
+
+ls => list (Verify that all three files are created inside the "Documents" directory)
+
+cd .. => return back (to siham said) 
+
+touch .hidden_file => create a new file (hidden file)
+
+ls -a => list all directory , files and hidden file
+
+cd Documents/ => Change your current working directory to the newly created directory
+
+nano file1.txt =>nano is text editor => write a message inside file1.txt
+
+save the changes and exit nano => ctrl s ,ctrl x
+
+cat file1.txt => display the content of file1.txt
+
+mkdir - =>Create a unique directory
+
+ls => list
+
+cd ./- => Change your current directory to the - directory
+
+cd ../.. => return to siham said directory 
+
+ls => list
+
+cp -r Documents/ My_Documents => copy Documents in siham said directory and rename the copied directory to My_Documents
+
+ls => list
+
+cat .hidden_file => display the content of  the hidden file
+
+cd Documents/ => Change your current working directory to the newly created directory
+
+mv file2.txt file3.txt .. => move file2.txt , file3.txt in the directory that before the one i am in
+
+cd .. => return back
+
+ls => list 
+
+cd ~ => return to home
+
+rm -ri siham\ said/ => remove the directory siham said
