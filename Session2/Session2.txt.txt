@@ -1,0 +1,73 @@
+cd Downloads => Change your current working directory to Downloads
+
+ls => list 
+
+unzip Updated-Task-02.zip => decompress Updated-Task-02.zip
+
+cd Updated-Task-02/ => Change Change your current working directory to Updated-Task-02
+
+ls => list Updated-Task-02
+
+cat README.txt => display the content of README.txt
+
+ls -a => list all (directory , files and hidden file)
+
+tar -xf .level-1.tar => -x to extract directory from an archive (.level-1.tar => .level-1)
+
+cd .level-1/ => Change Change your current working directory to .level-1
+
+ls => list .level-1
+
+cat README.txt => display the content of README.txt
+
+file level-2 => Give a description of the type of the specified file (level-2) 
+(I find that the extention of level-2 is gzip and to Decompress the file i must change his name from level-2 to level-2.gz with his extention)
+
+mv level-2 level-2.gz => Changing the name of level-2 to level-2.gz 
+
+gunzip level-2.gz => Decompressing level-2 (level-2.gz to level-2)
+
+file level-2 => Give a description of the type of the specified file (level-2) 
+(I find that is Archive file so i must to extract him)
+
+tar -xf level-2 => -x to extract directory from an archive 
+
+ls => list .level-1
+
+cd level-2 => Change your current working directory to level-2
+
+ls => list level-2
+
+find -name "*level-3" => Searching about level-3 from his name (The output is the location of level-3)
+
+cd gBT5u0vLT5/ => Change your current working directory to gBT5u0vLT5
+
+ls => list gBT5u0vLT5
+
+file level-3 => Give a description of the type of the specified file (level-3)
+(I find that the extention of level-2 is bzip2 and to Decompress the file i must change his name from level-2 to level-2.bz2 with his extention)
+
+mv level-3 level-3.bz2 => Changing the name of level-3 to level-3.bz2
+
+bunzip2 level-3.bz2 => Decompressing level-3 (level-3.bz2 to level-3)
+
+tar -xf level-3 => -x to extract directory from an archive 
+
+ls => list gBT5u0vLT5
+
+cd level-3 => Change your current working directory to level-3
+
+ls => list level-3
+
+cat README.txt => Display the coontent of README.txt
+
+cat X6lkChFKsj => Display the content of X6lkChFKsj
+
+find . -size 73c => Searching of a file with size of 73c (c for bytes)
+
+cd m7lRDpRTUJ/ => Change your current working directory to m7lRDpRTUJ
+
+ls = list m7lRDpRTUJ
+
+cat xVMvVQKNW5 => Display the content of xVMvVQKNW5
+
