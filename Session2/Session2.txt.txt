@@ -38,6 +38,9 @@ cd level-2 => Change your current working directory to level-2
 
 ls => list level-2
 
+cat README.txt => display the content of README.txt
+
+
 find -name "*level-3" => Searching about level-3 from his name (The output is the location of level-3)
 
 cd gBT5u0vLT5/ => Change your current working directory to gBT5u0vLT5
