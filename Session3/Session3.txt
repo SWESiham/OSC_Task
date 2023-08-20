@@ -1,0 +1,105 @@
+sudo useradd -m osc => 
+add user with his directory (-m)
+
+ls /home => 
+list home (display the user's directory)
+
+sudo passwd osc => 
+create passward for osc user
+
+sudo groupadd osc_group => 
+add group his name is osc_group
+
+sudo usermod -aG osc_group osc => 
+Add osc to osc_group
+
+sudo usermod -aG sudo osc => 
+Grant sudo privileges to the user osc
+
+su - osc => 
+switch between siham and osc
+
+pwd => 
+Print working directory
+
+whoami => 
+which user am i in
+
+mkdir permission_practice => 
+make directory with name permission_practice
+
+cd permission_practice => 
+change current directory to permission_practice
+
+touch public_file.txt private_file.txt executable_script.sh =>
+ create files public_file.txt , private_file.txt and executable_script.sh
+
+ls -l => 
+list -long (permissions , owner's name ,group's name ,....)
+
+chmod a=rw public_file.txt => 
+change permission for all (owners,groups and others) to read and write -> public_file.txt 
+
+ls -l => 
+list -long (permissions , owner's name ,group's name ,....)
+
+chmod 600 private_file.txt => 
+change permission for owner to read and write -> private_file.txt
+
+ls -l => 
+list -long (permissions , owner's name ,group's name ,....)
+
+chmod 750 executable_script.sh => 
+change permission for owner (read(4) , write(2) and execute(1)) and  group (read(4) and execute(1))  -> executable_script.sh 
+
+ls -l => 
+list -long (permissions , owner's name ,group's name ,....)
+
+sudo chown siham private_file.txt =>
+change owner of private_file.txt to siham
+
+ls -l => 
+list -long (permissions , owner's name ,group's name ,....)
+
+sudo chgrp osc_group private_file.txt =>
+change group of private_file.txt to osc_group
+
+ls -l => 
+list -long (permissions , owner's name ,group's name ,....)
+
+sleep 1000 & =>
+running in background 
+
+ps => 
+display information about the currently running processes (to know the PID of sleep 1000)
+
+kill -9 2825 =>
+ kill running process with his PID (-9 means -SIGTERM)
+
+ps => 
+display information about the currently running processes (to know the PID of sleep 1000)
+
+vim => open text editor 
+
+ctrl+z to stop vim ( text editor ) 
+
+pkill -SIGTERM vim =>
+kill process with his name 
+
+ps => 
+to verify that vim and sleep processes are no longer running 
+
+sudo apt install neofetch =>
+install the neofetch package
+
+sudo apt remove neofetch =>
+uninstall the neofetch package
+
+
+
+
+
+
+
+
+
