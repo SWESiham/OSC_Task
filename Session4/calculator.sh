@@ -38,7 +38,7 @@ echo "Enter the first number: "
 read f 
 echo "Enter the second number: "
 read s 
-echo "$f / $s = "  $(expr $f / $s | bc -l) 
+echo "$f / $s = "  $(expr $f / $s) 
 elif [[ $choice == 5 ]]
 then 
 echo "Exiting..."
